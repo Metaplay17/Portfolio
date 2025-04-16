@@ -1,0 +1,618 @@
+@import url(https://fonts.googleapis.com/css?family=Rosarivo:regular,italic);
+* {
+    margin: 0;
+    font-family: Rosarivo;
+    font-size: 1.3vw;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: #F6F6F6;
+    gap: 20px;
+}
+
+h5 {
+    font-size: 32px;
+}
+
+hr {
+    width: 100%;
+}
+
+nav {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-menu {
+    position: sticky;
+    top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 11vw;
+    min-width: 10vw;
+    height: 90vh;
+    margin-left: 5%;
+}
+
+.status-block {
+    display: flex;
+    width: 30vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.status-block p {
+    text-align: end;
+}
+
+.status-block-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 60px;
+    background-color: #AC8F64;
+    max-width: 100px;
+}
+
+.status-block img {
+    width: 2vw;
+    height: 2vw;
+}
+
+.status-block-count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 3vw;
+    height: 3vw;
+    background-color: #AC8F64;
+    border-radius: 50px;
+}
+
+#search-input {
+    width: 35vw;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.button-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.button-block img {
+    margin: 20px;
+    background-color: none;
+}
+
+.coffee-selector-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3vw;
+    height: 100px;
+    text-align: center;
+}
+
+.coffee-selector-block a, a:visited {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3vw;
+}
+
+.coffee-selected-block a, a:visited {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3vw;
+}
+
+.coffee-selected-block img {
+    display: block;
+    width: 10vw;
+}
+
+.coffee-selected-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+    background-color: #AC8F64;
+    font-size: 1.3vw;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px 0;
+    font-size: 1.3vw;
+}
+
+.coffee-selected-block a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.3vw;
+}
+
+.coffee-list {
+    display: grid;
+    grid-template-columns: 23vw 23vw 23vw;
+    gap: 30px;
+}
+
+.coffee-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    height: 30vh;
+    padding: 5vh;
+    margin: 3px;
+}
+
+.coffee-card:hover {
+    border: 3px solid brown;
+    margin: 0;
+}
+
+.coffee-card img {
+    height: 10vw;
+}
+
+.order-button-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 8vw;
+    gap: 3px;
+    background-color: #DADADA;
+    border-radius: 5px;
+}
+
+.order-text-block {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.order-button {
+    background-color: #CD4126;
+    border-radius: 5px;
+    font-weight: 1000;
+}
+
+.right-menu {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #F4F4F4;
+    width: 0%;
+    height: 100%;
+    padding: 4vw;
+    top: 0;
+    left: 70%;
+    gap: 20px;
+}
+
+.deactivated {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.right-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.right-close-button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.right-category-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.right-category {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.order-menu {
+    display: none;
+    flex-direction: column;
+    gap: 50px;
+    background-color: white;
+    width: 100%;
+    background-color: #F4F4F4;
+}
+
+.coffee-order-data {
+    display: flex;
+    flex-direction: row;
+}
+
+.back-button-block {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+#coffee-order-block {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.order-image {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-image img {
+    width: 20vw;
+}
+
+.coffee-extras-sizes, .coffee-extras-extras, .coffee-extras-milks {
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #b5aeaedc;
+    margin: 2px;
+}
+
+.coffee-extras-sizes:hover, .coffee-extras-extras:hover, .coffee-extras-milks:hover {
+    background-color: #AC8F64;
+    border: 1px solid black;
+    margin: 0
+}
+
+.extras-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.selected-coffee-extra {
+    background-color: #AC8F64;
+    border: 1px solid black;
+}
+
+.count-price {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 50px;
+}
+
+.count-price input {
+    border-radius: 10px;
+    border: none;
+    background-color: #FFFFFF;
+    padding: 5px;
+    font-size: 1.3vw;
+    align-items: center;
+}
+
+.buy-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.buy-block button {
+    height: 50px;
+    width: 20vw;
+    border: none;
+    border-radius: 20px;
+    background-color: #CD4126CC;
+    color: white;
+}
+
+.ordered-coffee-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.ordered-coffee-block img {
+    width: 6vw;
+}
+
+.block-count {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #CD4126CC;
+    width: 2vw;
+    height: 2vw;
+}
+
+.element-order-block {
+    width: 5vw;
+}
+
+.prices-block {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.price-total-block {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.slide-close-button {
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #CD4126CC;
+}
+
+.slide-close-button img {
+    width: 1vw;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    * {
+        font-size: 3vw;
+    }
+    .left-menu {
+      display: none !important;
+    }
+
+    main {
+        margin-left: 10%;
+    }
+
+    .coffee-list {
+        grid-template-columns: 40vw 40vw;
+    }
+
+    .right-menu {
+        width: 60vw !important;
+        left: 30%;
+    }
+
+    .coffee-card {
+        height: 30vw;
+        width: 25vw;
+    }
+
+    .order-button-block {
+        width: 50%;
+    }
+
+    .block-count {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .status-block-count {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .element-order-block {
+        width: 10vw;
+    }
+
+    .element-order-block img {
+        width: 10vw;
+    }
+
+    .order-image {
+        width: 30vw;
+    }
+
+    .order-image img {
+        width: 30vw;
+    }
+
+    #order-count-input {
+        width: 20vw;
+        font-size: 3vw
+    }
+
+    .buy-block button {
+        width: 100%;
+    }
+  }
+
+@media (min-width: 320px) and (max-width: 1023px) {
+    * {
+        font-size: 3vw;
+    }
+
+    .left-menu {
+        display: none !important;
+      }
+
+    main {
+        margin-left: 10%;
+    }
+
+    .coffee-list {
+        grid-template-columns: 80vw;
+    }
+
+    .coffee-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        height: 60vw;
+        padding: 5vw;
+        margin: 3px;
+    }
+
+    .coffee-card p {
+        font-size: 4vw;
+    }
+    
+    .coffee-card img {
+        height: 30vw;
+    }
+
+    .order-button-block {
+        width: 60%;
+        height: 20%;
+    }
+
+    .order-button-block button {
+        width: 30%;
+        height: 60%;
+        font-size: 4vw;
+    }
+
+    .order-image {
+        display: none;
+    }
+
+    #coffee-order-block {
+        margin-left: 10%;
+    }
+
+    #order-count-input {
+        font-size: 5vw;
+    }
+
+    .coffee-extras-sizes, .coffee-extras-extras, .coffee-extras-milks {
+        width: 17vw;
+        text-align: center;
+    }
+
+    .coffee-extras-sizes p, .coffee-extras-extras p, .coffee-extras-milks p {
+        font-size: 2.5vw;
+    }
+
+    .low-opacity-text {
+        font-size: 4vw;
+    }
+
+    .coffee-order-data button {
+        width: 80vw;
+        font-size: 5vw;
+    }
+
+    .count-price input {
+        width: 20vw;
+        font-size: 5vw;
+    }
+
+    .status-block {
+        font-size: 5vw;
+        justify-content: flex-end;
+        gap: 15px;
+    }
+
+    .right-menu {
+        width: 90% !important;
+        left: 0;
+    }
+
+    .block-count {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .element-order-block img {
+        width: 20vw;
+    }
+
+    .slide-close-button {
+        width: 17vw;
+        height: 17vw;
+        border-radius: 40px;
+    }
+    .slide-close-button img {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .status-block {
+        width: 30vw;
+        justify-content: flex-end;
+        gap: 15px;
+    }
+
+    .status-block-image {
+        width: 6vw;
+        height: 5vw;
+    }
+
+    .status-block-image img {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .status-block-count {
+        width: 6vw;
+        height: 5vw;
+    }
+}

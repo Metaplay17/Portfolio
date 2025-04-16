@@ -1,0 +1,89 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form Container */
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-container h2 {
+    color: #7ecef3; /* Dark teal for heading */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #167ab4; /* Dark teal for labels */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.form-group input:focus {
+    border-color: #7ecef3; /* Dark teal for focus */
+    outline: none;
+}
+
+/* Sign In Button */
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7ecef3; /* Dark teal for button */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #7ecef3; /* Darker teal for hover */
+}
+
+/* Haven't Registered Link */
+.form-group p {
+    text-align: center;
+    color: #7ecef3; /* Dark teal for text */
+}
+
+.form-group a {
+    color: #259cd3; /* Darker teal for link */
+    text-decoration: none;
+}
+
+.form-group a:hover {
+    text-decoration: underline;
+}
+
+.information {
+    color: red;
+    text-align: center;
+}

@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a192f; /* Dark blue background */
+    color: #ffffff; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.container h1 {
+    color: #64ffda; /* Teal for heading */
+    margin-bottom: 30px;
+}
+
+/* Form Container */
+.form-container {
+    background-color: #112240; /* Darker blue for forms */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-container h2 {
+    color: #64ffda; /* Teal for subheadings */
+    margin-bottom: 20px;
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group p {
+    display: block;
+    color: #64ffda; /* Teal for ps */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #233554; /* Dark blue border */
+    border-radius: 5px;
+    background-color: #0a192f; /* Dark blue background */
+    color: #ffffff; /* White text */
+    font-size: 16px;
+}
+
+.form-group input:focus {
+    border-color: #64ffda; /* Teal for focus */
+    outline: none;
+}
+
+/* Submit Button */
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #64ffda; /* Teal for button */
+    color: #0a192f; /* Dark blue text */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #52d1b2; /* Darker teal for hover */
+}
+
+.information {
+    color:red;
+}
