@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Codes\\hackathon\\api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8329393A-4F30-45F5-96CD-2B5F544FD1F8}|api.csproj|d:\\codes\\hackathon\\api\\models\\applicantsbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8329393A-4F30-45F5-96CD-2B5F544FD1F8}|api.csproj|solutionrelative:models\\applicantsbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8329393A-4F30-45F5-96CD-2B5F544FD1F8}|api.csproj|D:\\Codes\\hackathon\\api\\models\\applicant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8329393A-4F30-45F5-96CD-2B5F544FD1F8}|api.csproj|solutionrelative:models\\applicant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8329393A-4F30-45F5-96CD-2B5F544FD1F8}|api.csproj|D:\\Codes\\hackathon\\api\\models\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8329393A-4F30-45F5-96CD-2B5F544FD1F8}|api.csproj|solutionrelative:models\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8329393A-4F30-45F5-96CD-2B5F544FD1F8}|api.csproj|D:\\Codes\\hackathon\\api\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8329393A-4F30-45F5-96CD-2B5F544FD1F8}|api.csproj|solutionrelative:models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicantsBase.cs",
+              "DocumentMoniker": "D:\\Codes\\hackathon\\api\\models\\ApplicantsBase.cs",
+              "RelativeDocumentMoniker": "models\\ApplicantsBase.cs",
+              "ToolTip": "D:\\Codes\\hackathon\\api\\models\\ApplicantsBase.cs",
+              "RelativeToolTip": "models\\ApplicantsBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T10:45:00.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Database.cs",
+              "DocumentMoniker": "D:\\Codes\\hackathon\\api\\models\\Database.cs",
+              "RelativeDocumentMoniker": "models\\Database.cs",
+              "ToolTip": "D:\\Codes\\hackathon\\api\\models\\Database.cs",
+              "RelativeToolTip": "models\\Database.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T10:39:56.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "D:\\Codes\\hackathon\\api\\models\\Subject.cs",
+              "RelativeDocumentMoniker": "models\\Subject.cs",
+              "ToolTip": "D:\\Codes\\hackathon\\api\\models\\Subject.cs",
+              "RelativeToolTip": "models\\Subject.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAArwBwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T10:32:18.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Applicant.cs",
+              "DocumentMoniker": "D:\\Codes\\hackathon\\api\\models\\Applicant.cs",
+              "RelativeDocumentMoniker": "models\\Applicant.cs",
+              "ToolTip": "D:\\Codes\\hackathon\\api\\models\\Applicant.cs",
+              "RelativeToolTip": "models\\Applicant.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T10:30:21.152Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
